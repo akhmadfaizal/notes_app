@@ -321,7 +321,7 @@ class _SettingsPageState extends State<SettingsPage> {
   }
 
   void openGitHub() {
-    launch('https://github.com/akhmadfaizal/notes_app');
+    launchUrl(Uri.parse('https://github.com/akhmadfaizal/notes_app'));
   }
 
   void handleThemeSelection(ChoosenTheme value) {
