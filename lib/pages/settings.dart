@@ -2,6 +2,7 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:notes_app_exam_tk2/services/shared_preferences.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 enum ChoosenTheme { light, dark }
 
@@ -320,7 +321,7 @@ class _SettingsPageState extends State<SettingsPage> {
   }
 
   void openGitHub() {
-    // launch('https://www.github.com/roshanrahman');
+    launch('https://github.com/akhmadfaizal/notes_app');
   }
 
   void handleThemeSelection(ChoosenTheme value) {
